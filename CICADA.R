@@ -2,7 +2,6 @@ library(RSQLite)
 library(dplyr)
 library(ggplot2)
 
-# Create synthetic data for CICADA eMissiles
 set.seed(42)
 missile_data <- data.frame(
     id = 1:100,
